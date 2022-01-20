@@ -1,3 +1,73 @@
-h1 {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --light-blue: #61DAFB;
+    --navbar-bg: #21222A;
+    --page-bg: #282D35;
+}
+body {
+    font-family: 'Ínter', sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 640px;
+    background-color: var(--page-bg);
+    background-image: url('./img/logo-bg.png');
+    background-repeat: no-repeat;
+    background-position: right 75%;
+    min-height: 600px;
+    margin: 0 auto;
+}
+
+.navbar {
+    height: 90px;
+    background-color: var(--navbar-bg);
+    padding: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar__logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__logo {
+    width: 60px;
+}
+
+.navbar__title {
+    font-size: 2rem;
+    color: var(--light-blue);
+}
+
+.navbar__desc {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.main-content {
+    padding: 2rem 4rem;
+    color: #fff;
+}
+
+.main-content__header {
+    font-size: 2.4rem;
+}
+
+.main-content__list {
+    font-size: 1.2rem;
+    max-width: 400px;
+}
+
+.main-content__list > li {
+    font-weight: 300;
+    margin-top: .6rem;
+}
+
+.main-content__list > li::marker {
+    color: var(--light-blue);
+    font-size: 1.6rem;
 }

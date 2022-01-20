@@ -4,13 +4,15 @@ import './index.css';
 import App from './App';
 
 import StartProject from './start-project/StartProject';
+import BuisnessCard from './buisness-card/BuisnessCard';
 
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
-    <StartProject />
+    {/* <StartProject /> */}
+    <BuisnessCard />
   </React.StrictMode>,
   document.getElementById('root')
 );

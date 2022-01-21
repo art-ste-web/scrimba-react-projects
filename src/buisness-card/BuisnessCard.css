@@ -66,3 +66,31 @@
     background: #5093E2;
     color: #fff;
 }
+
+.about, .teams {
+    padding: 1rem 2rem;
+}
+
+.about > p {
+    font-weight: 300;
+}
+
+.teams > ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.teams > ul > li {
+    font-weight: 300;
+    margin-top: .5rem;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #161619;
+    padding: 1rem 2rem;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}

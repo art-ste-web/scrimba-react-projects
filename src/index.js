@@ -5,7 +5,9 @@ import App from './App';
 
 import StartProject from './start-project/StartProject';
 import BuisnessCard from './buisness-card/BuisnessCard';
-import AirBnbClone from './air-bnb-clone/AirBnbClone'
+import AirBnbClone from './air-bnb-clone/AirBnbClone';
+import TravelBlog from './travel-blog/TravelBlog';
+
 
 
 ReactDOM.render(
@@ -13,7 +15,8 @@ ReactDOM.render(
     {/* <App /> */}
     {/* <StartProject /> */}
     {/* <BuisnessCard /> */}
-    <AirBnbClone />
+    {/* <AirBnbClone /> */}
+    <TravelBlog />
   </React.StrictMode>,
   document.getElementById('root')
 );

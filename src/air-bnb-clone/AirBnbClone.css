@@ -39,3 +39,59 @@
     margin-top: 0;
     width: 80%;
 }
+
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 0 2rem;
+    
+}
+
+.card {
+    max-width: 180px;
+    margin: 0 .5rem;
+    position: relative;
+}
+
+.card > img {
+    border-radius: 8px;
+    width: 100%;
+    min-width: 200px;
+}
+
+.card-badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    font-size: .8rem;
+    background-color: #fff;
+    padding: .25rem;
+    border-radius: 3px;
+}
+
+.card .rating {
+    color: #918E9B;
+}
+
+.card .rating > img {
+    max-width: 16px;
+    margin-right: .25rem;
+}
+
+.card .title {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.1;
+    font-weight: 300;
+}
+
+.card .price {
+    margin-top: 0;
+    font-weight: 300;
+}
+
+.card .price-value {
+    font-weight: 700;
+}
